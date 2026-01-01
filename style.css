@@ -659,6 +659,88 @@ body {
   color: #cbd5f5;
   font-size: 13px;
 }
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  .nav-links {
+    gap: 15px;
+    font-size: 14px;
+  }
+
+  /* HERO TEXT */
+  .hero-text h1 {
+    font-size: 38px;
+  }
+
+  /* IMAGE */
+  .outer-ring {
+    width: 260px;
+    height: 260px;
+  }
+
+  .inner-ring {
+    width: 210px;
+    height: 210px;
+  }
+
+  .inner-ring img {
+    width: 180px;
+    height: 180px;
+  }
+
+  /* SERVICES */
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* PROJECTS */
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* SKILLS */
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+
+  /* GLOBAL */
+  section {
+    padding: 80px 0;
+  }
+
+  /* NAVBAR */
+  .nav-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  /* HERO */
+  .hero-text h1 {
+    font-size: 32px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  /* SERVICES */
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* SKILLS */
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* CONTACT FORM */
+  .contact-form {
+    padding: 25px;
+  }
+}
 
 
 
